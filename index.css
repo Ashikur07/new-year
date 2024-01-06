@@ -9,15 +9,13 @@ header {
     height: 100vh;
     background-image: url('./images/banner1.png');
     background-repeat: no-repeat;
-    background-size: contain;
-
-
+    background-size: cover;
 
 }
 
 .header-style {
     padding-top: 170px;
-    padding-left: 700px;
+    padding-left: 780px;
     text-align: right;
     width: 525px;
 
@@ -51,7 +49,7 @@ header {
 .previous-year {
     display: flex;
     gap: 80px;
-    padding: 100px 280px 100px 140px;
+    padding: 100px 280px 100px 200px;
 }
 
 .year-image img {
