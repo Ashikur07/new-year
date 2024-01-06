@@ -121,3 +121,82 @@ header {
     font-weight: 500;
 
 }
+
+.background-image {
+    height: 220px;
+    border-radius: 8px;
+    margin: 100px 190px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/watch.png');
+    background-size: 100%;
+    background-position-y: center;
+
+}
+
+.background-image h1 {
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-bottom: 15px;
+
+}
+
+.background-image button {
+    color: #F15B22;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+}
+
+.background-image h1,
+button {
+    margin-left: 60px;
+}
+
+footer {
+    margin-top: 130px;
+    background: #151414;
+    height: 320px;
+    color: white;
+    display: flex;
+    padding: 70px 230px;
+    justify-content: space-between;
+}
+
+.footer-heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.col-1 p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.col-1 p>img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.col-2 input {
+    background: #151414;
+    border: 1px solid rgb(203, 194, 188);
+    border-radius: 5px;
+    padding: 15px;
+    width: 70%;
+}
+
+.col-2 button {
+    padding: 12px 22px;
+    color: #F15B22;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin: 15px 50px 0px 0px;
+    border: none;
+}
