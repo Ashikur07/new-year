@@ -7,7 +7,7 @@ body {
 
 header {
     height: 100vh;
-    background-image: url(../images/banner/banner1.png);
+    background-image: url('../images/banner1.png');
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -94,4 +94,30 @@ header {
     color: #151414;
     font-size: 30px;
     font-weight: 700;
+}
+
+.feature-section {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card-img {
+    width: 80px;
+}
+
+.card-heading {
+    color: #151414;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+.card-description {
+    color: #737272;
+    font-size: 20px;
+    font-weight: 500;
+
 }
