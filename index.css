@@ -1,0 +1,97 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+header {
+    height: 100vh;
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+
+}
+
+.header-style {
+    padding-top: 170px;
+    padding-left: 700px;
+    text-align: right;
+    width: 525px;
+
+}
+
+.header-titile {
+    color: #151414;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    width: 480px;
+    padding-left: 45px;
+}
+
+
+.btn-primary {
+    color: white;
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 13px 18px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.previous-year {
+    display: flex;
+    gap: 80px;
+    padding: 100px 280px 100px 140px;
+}
+
+.year-image img {
+    width: 500px;
+}
+
+.description-yera {
+    padding-top: 160px;
+}
+
+.previous-year-header {
+    width: 288px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.previous-year-description {
+    width: 416px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.previous-year-header,
+.previous-year-description {
+    padding-left: 20px;
+}
+
+.description-yera ul>li {
+    margin-bottom: 10px;
+    color: #444343;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.my-plans {
+    text-align: center;
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
